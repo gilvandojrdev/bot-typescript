@@ -6,6 +6,7 @@
         "types": ["node"],
         "moduleResolution": "bundler",
         "ignoreDeprecations": "6.0",
+        "noEmit": true,
         "moduleDetection": "force",
         "rootDir": "./src",
         "outDir": "./dist",
@@ -31,3 +32,4 @@
         "**/*.spec.ts"
     ]
 }
+
