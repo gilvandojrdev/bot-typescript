@@ -1,1 +1,33 @@
-
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "lib": ["ESNext"],
+        "types": ["node"],
+        "moduleResolution": "bundler",
+        "ignoreDeprecations": "6.0",
+        "moduleDetection": "force",
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "strict": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true,
+        "resolveJsonModule": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "sourceMap": false,
+        "declaration": false
+    },
+    "include": [
+        "src/**/*",
+        "enviroment.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
